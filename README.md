@@ -1,5 +1,7 @@
 # Magiz demo
 
+<https://charlesooo.github.io/magiz-demo/>
+
 ## 简介
 
 magiz 的一些演示项目
