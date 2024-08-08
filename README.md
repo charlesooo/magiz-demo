@@ -6,5 +6,14 @@ magiz 的一些演示项目
 
 ## 信息
 
-网站：<http://architech.fun>
+Author： 周 曦
+
+E-mail: 453154007@qq.com
+
+Wechat: Ketchup
+
+Website：<http://architech.fun>
+
 NPM：<https://www.npmjs.com/package/magiz>
+
+
