@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magiz demo</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+      }
+      #contents {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        user-select: none;
+        height: 100%;
+      }
+      .demo {
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        width: 320px;
+        margin-bottom: 36px;
+        padding: 12px;
+        border-radius: 9px;
+        cursor: pointer;
+        color: #26f;
+        transition: 0.6s;
+      }
+      .demo p {
+        color: #000;
+        margin-bottom: 3px;
+      }
+      .demo i {
+        margin: 0;
+        font-size: small;
+        color: #333;
+      }
+      .demo:hover {
+        box-shadow: 0 3px 12px #333;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="contents">
+      <a href="./demo-another-marseille/index.html" class="demo">
+        <b>Another Marseille</b>
+        <p>将建筑大师柯布西耶设计的马赛公寓转换成参数化样式</p>
+        <i>
+          Convert the Marseille apartment designed by famous architect Corbusier into a parametric
+          style
+        </i>
+      </a>
+      <a href="./demo-city/index.html" class="demo">
+        <b>Infinite city</b>
+        <p>1917栋参数化建筑的城市场景</p>
+        <i>The urban scene of 1917 parameterized buildings</i>
+      </a>
+    </div>
+  </body>
+</html>
