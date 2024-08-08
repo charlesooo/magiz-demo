@@ -8,9 +8,9 @@ magiz 的一些演示项目
 
 Author： 周 曦
 
-E-mail: 453154007@qq.com
+E-mail:  453154007@qq.com
 
-Wechat: Ketchup
+Wechat:  Ketchup
 
 Website：<http://architech.fun>
 
