@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>湖北工业大学 建筑编码课程 2024</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+      }
+      #magiz {
+        overflow: hidden;
+        height: 100%;
+      }
+      #btn {
+        position: fixed;
+        bottom: 24px;
+        left: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="magiz"></div>
+    <div id="tags"></div>
+    <input id="btn" type="button" value="开关作者标签" />
+    <script id="serverData" type="application/json" src="./serverData.json"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.164.0/build/three.module.min.js"
+        }
+      }
+    </script>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
